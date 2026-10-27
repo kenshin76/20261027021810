@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>의료 반응형 웹사이트 구축 (디자인/개발/NCP) (위시켓 159285)</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="위시켓 159285 — 의료 반응형 웹사이트 구축 (디자인/개발/NCP) 제안 요약과 프로토타입 체험 링크.">
+<meta name="color-scheme" content="light">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="assets/main.css?v=20261027-accordion">
+</head>
+<body>
+<a class="skip" href="#facts">본문 바로가기</a>
+
+<header class="top">
+  <div class="wrap top-in">
+    <span class="mark"><i aria-hidden="true"></i>위시켓 159285 · 2026-10-27</span>
+    <a class="top-cta" id="topCta" href="prototype/index.html" aria-hidden="true" tabindex="-1">프로토타입 열기 <svg class="s" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <h1 class="rv">의료 반응형 웹사이트 구축<br><em>(디자인/개발/NCP)</em></h1>
+      <p class="greet rv"><span class="hi">안녕하십니까.</span> 귀사가 준비하시는 기획과 원고를 바탕으로, 환자가 쉽게 예약하고 귀사가 직접 운영할 수 있는 병원 웹사이트를 구축하겠습니다. 디자인·개발·NCP 환경 구축·운영 인계까지 한 팀이 맡아 <b>2027년 1월 정식 오픈</b>을 목표로 진행하겠습니다.</p>
+      <div class="facts" id="facts"><div class="fact rv"><span class="fl">금액</span><b class="fv">15,000,000<small>원</small></b><span class="fs"><span class="ln">부가세 포함 16,500,000원</span><span class="ln">필수 과업 전체</span></span></div><div class="fact rv"><span class="fl">기간</span><b class="fv">60<small>일</small></b><span class="fs"><span class="ln">착수일부터 · 정식 오픈 57일차</span><span class="ln">2026-11-09 착수 예시</span></span></div><div class="fact rv"><span class="fl">투입</span><b class="fv">60<small>MD</small></b><span class="fs"><span class="ln">2.00 MM · 8명</span><span class="ln">전원 보유 인력 · 재하도급 없음</span></span></div><div class="fact rv"><span class="fl">월 NCP 실비 (추정)</span><b class="fv">277,000<small>원</small></b><span class="fs"><span class="ln">권장 구성(운영 웹·DB 분리)</span><span class="ln">최소 구성(운영 웹·DB 통합) 약 183,000원</span></span></div></div>
+    </div>
+  </section>
+
+  <section class="launch" aria-labelledby="launchTitle">
+    <div class="wrap">
+      <div class="pcard rv">
+        <div class="pshot" aria-hidden="true">
+          <img src="assets/cover-prototype.jpg" alt="" width="1024" height="420" decoding="async">
+          <span class="plbl"><i></i>LIVE PROTOTYPE</span>
+        </div>
+        <div class="pbody">
+          <h2 id="launchTitle">프로토타입</h2>
+          <p>4개 지점 사이트와 비회원 진료 예약, 통합 관리자를 가상 데이터로 직접 체험하실 수 있습니다</p>
+          <a class="pbtn" id="protoBtn" href="prototype/index.html">프로토타입 열기 <svg class="s" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" aria-labelledby="h1s">
+    <div class="wrap">
+      <div class="sh rv"><span class="kk">1</span><h2 id="h1s">프로젝트 이해</h2></div>
+      <div class="understand rv"><p class="big"><b>핵심은 4개 지점과 7개 이상 진료과의 정보를 연결해, 진료 일정이 바뀌어도 화면 안내와 예약이 일치하도록 만드는 것입니다.</b> 제공해 주시는 와이어프레임과 자산을 병원의 신뢰감이 드러나는 반응형 디자인으로 완성하고, 다음 구조로 운영 부담을 줄이겠습니다.</p></div>
+    </div>
+  </section>
+
+  <section class="sec fold" aria-label="상세 내용">
+    <div class="wrap">
+      <p class="fold-hint rv">아래 항목은 필요하실 때 눌러서 펼쳐 보실 수 있습니다.</p>
+      <details class="acc rv" id="dh2s"><summary><span class="kk">2</span><h2 id="h2s">핵심 수행 방안</h2><span class="tog"><span class="t-open">펼쳐 보기</span><span class="t-close">접기</span><svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></span></summary><div class="acc-b"><ol class="ways w4"><li class="rv"><span class="no">01</span><h3>한 번 수정해 모든 화면에 반영</h3><p>지점·진료과·운영표를 공통 데이터로 관리하고 게이트웨이·지점 홈·진료과 상세에서 같은 정보를 사용합니다. 합의한 템플릿 안에서 운영 진료과와 콘텐츠를 관리자 설정으로 변경합니다.</p></li><li class="rv"><span class="no">02</span><h3>정원을 지키는 비회원 예약</h3><p>지점·진료과·날짜·시간을 선택하고 휴대폰 본인인증으로 예약·조회·취소합니다. 서버가 운영표·휴진·마감 시각을 다시 확인하고 <b>DB 잠금과 고유 제약으로 정원 초과·중복 예약을 방지</b>합니다. 휴진 등록 시 기존 예약이 있으면 연락 대상부터 안내합니다.</p></li><li class="rv"><span class="no">03</span><h3>안전하게 변경하는 운영 환경</h3><p>NCP의 Staging·Production을 서버·DB·접근 규칙·도메인·접속 정보까지 분리합니다. Staging에서 확인한 같은 버전을 운영에 반영하고, 자동 백업과 <b>오픈 전 실제 복구 시험</b>을 진행합니다.</p></li><li class="rv"><span class="no">04</span><h3>개인정보 보호</h3><p>연락처 등 개인정보는 암호화하고, 합의한 보관 기간이 지나면 자동 파기합니다. 관리자 목록은 가림 표시하고 상세 열람 기록을 남기며, 건강 관련 메모 수집 시 별도 동의를 적용합니다.</p></li></ol></div></details>
+      <details class="acc rv" id="dh3s"><summary><span class="kk">3</span><h2 id="h3s">관련 경험과 적용 방안</h2><span class="tog"><span class="t-open">펼쳐 보기</span><span class="t-close">접기</span><svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></span></summary><div class="acc-b"><div class="rv"><div class="tw"><table class="exp"><thead><tr><th scope="col">사례</th><th scope="col">확인된 경험과 이번 과업에 적용할 부분</th></tr></thead><tbody><tr><th scope="row"><b><a href="https://www.wishket.com/partners/p/pumila/portfolio/305975" target="_blank" rel="noopener">글로벌 커뮤니티 SaaS 구축·운영</a></b> · 2019.11~2026.07 · 참여율 100%</th><td>PC·모바일 반응형 웹, 4종 게시판과 배너·예약 게시·통계 운영 콘솔을 직접 개발·운영했습니다. 게시글 하나로 여러 언어를 관리한 구조를 <b>공통·지점별 공지 관리</b>에 적용하겠습니다</td></tr><tr><th scope="row"><b><a href="https://www.wishket.com/partners/p/pumila/portfolio/304352" target="_blank" rel="noopener">플랫폼 웹사이트 제작</a></b> · 2024.03~2024.07 · 참여율 100%</th><td>기획·디자인·개발, 디자인 시스템 문서화와 Figma 인계·반응형 QA를 수행했습니다. 제공 자산을 일관된 디자인으로 완성하고 <b>페이지 추가에도 사용할 공통 컴포넌트 기준</b>을 남기겠습니다</td></tr><tr><th scope="row"><b>[프로토타입] 창업 지원 통합 플랫폼</b> · 자체 제작 제안용</th><td>예약 권한·시간 중복·취소 제한과 통합 관리자 대시보드·13개 업무 메뉴를 가상 데이터로 구현했습니다. 이 예약 흐름을 이번 과업에서는 <b>실제 서버와 DB에서 구현·검증</b>하겠습니다</td></tr></tbody></table></div><p class="memo first">PHP·CodeIgniter·MySQL 기반 쿠폰 발급·교환 시스템의 상용 운영 경험도 백엔드 설계에 활용합니다. 클라우드 구축·이관 및 운영 인계 경험과 NCP 적용 계획은 아래 고객 질문 답변에 구분해 정리했습니다.</p><p class="memo">이번 제안의 <b>병원 웹 프로토타입</b>에서는 지점·진료과 탐색, 비회원 예약·조회·취소, 같은 시간 예약 요청 20건의 정원 처리와 관리자·배포·복구 흐름을 체험할 수 있습니다. 가상 데이터로 만든 시연이며, <b>실제 본인인증·서버 예약 처리·NCP와는 연동되지 않습니다.</b></p></div></div></details>
+      <details class="acc rv" id="dh4s"><summary><span class="kk">4</span><h2 id="h4s">주요 제안 조건</h2><span class="tog"><span class="t-open">펼쳐 보기</span><span class="t-close">접기</span><svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></span></summary><div class="acc-b"><div class="rv"><div class="sumtw"><table class="sumt"><thead><tr><th scope="col">항목</th><th scope="col">내용</th></tr></thead><tbody><tr class="key"><th scope="row"><span class="sn">01</span><b>금액</b></th><td><b>15,000,000원</b> · 부가세 포함 <b>16,500,000원</b> · 아래 산정 전제에 따른 필수 과업 전체</td></tr><tr class="key"><th scope="row"><span class="sn">02</span><b>기간</b></th><td><b>착수일부터 60일</b> · 2026-11-09 착수 예시 기준 영업일 42일, <b>정식 오픈 57일차(2027-01-04)</b> · 최종 검수 01-07. 실제 착수일·자료 제공 일정을 확인해 계약 시 확정</td></tr><tr><th scope="row"><span class="sn">03</span><b>투입</b></th><td><b>60 MD = 2.00 MM · 8명</b>(PM 1·기획 1·디자인 2·프론트엔드 2·백엔드 2). 전원 보유 인력이며 <b>필요한 단계에 역할별로 집중 투입</b>, 재하도급 없음. 1 MD=8시간, 1 MM=30 MD</td></tr><tr><th scope="row"><span class="sn">04</span><b>대금 지급</b></th><td>계약 시 30%(4,500,000원) · G2 디자인 확정 시 30%(4,500,000원) · G4 최종 검수 후 40%(6,000,000원), 부가세 별도</td></tr><tr><th scope="row"><span class="sn">05</span><b>제안 기술</b></th><td>공고의 PHP·MySQL·HTML/CSS·JavaScript·NCP를 바탕으로 <b>PHP 8·CodeIgniter 4·MySQL 8·Nginx</b> 구성을 제안</td></tr><tr><th scope="row"><span class="sn">06</span><b>무상 하자보수</b></th><td><b>최종 검수일부터 3개월</b>, 합의한 기능·디자인·인수 기준을 충족하지 못하는 결함 전체. 오픈일부터 최종 검수일까지의 결함도 개발비 내 수정</td></tr><tr><th scope="row"><span class="sn">07</span><b>유지보수</b></th><td><b>건별 기본: 250,000원/MD</b>, 작은 수정은 0.5 MD 단위. 요청 후 1영업일 안에 공수·일정 회신, 승인 후 진행. <b>월 단위 선택: 월 500,000원</b>, 월 2 MD 이내 수정·지원과 월 1회 서버·백업·인증서 점검</td></tr><tr><th scope="row"><span class="sn">08</span><b>지원 시간</b></th><td>무상 하자보수·월 단위 유지보수는 <b>평일 09~18시 기준 긴급 1시간·일반 오류 4시간 이내 착수</b>, 사용 문의 1영업일 안에 회신. 무상 결함 수정은 유상 공수에서 차감하지 않음</td></tr><tr><th scope="row"><span class="sn">09</span><b>견적 유효기간</b></th><td>제출일부터 30일</td></tr></tbody></table></div><p class="memo first">추가 개발 단가와 건별·월 단위 유지보수 금액은 모두 부가세 별도입니다.</p><dl class="dl"><div class="rv"><dt>산정 전제와 포함 범위</dt><dd>사용자 화면 <b>약 30개 공통 템플릿(지점·진료과 조합 제외)</b>, 제공 자료 기반 기존 게시물 1회 이관을 기준으로 G1에서 화면 목록·자료 형식·예약 규칙을 확정합니다. 메인 시안 2안과 서브·공통 컴포넌트, 반응형 퍼블리싱·웹 표준·접근성·크로스브라우징, 비회원 예약, 공지·언론보도·FAQ·배너·팝업·문의, 예약·스케줄·예약자·콘텐츠·통계·엑셀을 관리하는 통합 관리자와 전체/지점 권한, NCP 구축·QA·오픈·인계를 포함합니다.</dd></div><div class="rv"><dt>별도 비용·변경</dt><dd>NCP 사용료·도메인·본인인증 건당 수수료·유료 SSL(선택)은 귀사 명의 실비입니다. 유료 폰트·편집기 등 라이선스는 무료·보유 대안부터 검토하고 <b>금액·조건을 안내해 승인 후 도입</b>합니다. 작은 문구·배치 조정은 기본 범위에 반영하고, 새 기능은 범위 내 교환 또는 사전 승인 후 250,000원/MD로 진행합니다.</dd></div><div class="rv"><dt>제외 범위</dt><dd>일반 사용자 회원가입·로그인, 외부 EMR/CRM 연동, 온라인 결제, 원천 자산 제작, 예약 안내 문자·알림톡 발송, 접근성 인증마크 취득 대행, 합의한 화면 목록 밖의 신규 화면, 영상 촬영·편집입니다. <b>관리자 로그인과 지점별 권한 관리는 포함</b>합니다.</dd></div></dl></div></div></details>
+      <details class="acc rv" id="dh5s"><summary><span class="kk">5</span><h2 id="h5s">진행 일정과 인수인계</h2><span class="tog"><span class="t-open">펼쳐 보기</span><span class="t-close">접기</span><svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></span></summary><div class="acc-b"><div class="rv"><p class="memo first">착수·분석 7일 → 디자인·기반 구축 21일 → 퍼블리싱·개발 14일 → Staging QA 14일 → 오픈·인수 4일, <b>총 60일</b>입니다. 아래는 2026-11-09 착수 예시이며 성탄절·신정을 반영했습니다.</p><div class="tw"><table class="exp req"><thead><tr><th scope="col">시점</th><th scope="col">확인할 결과</th></tr></thead><tbody><tr><th scope="row"><b>G1 · 11-13</b></th><td>화면 목록·예약 규칙·관리자 권한, NCP 구성·월 비용 확정</td></tr><tr><th scope="row"><b>G2 · 12-04</b></th><td>디자인 확정. 메인 시안 2안은 11-20 공유</td></tr><tr><th scope="row"><b>12-18</b></th><td>Staging 중간 시연</td></tr><tr><th scope="row"><b>G3 · 12-30</b></th><td>기능·보안·반응형·접근성 시험과 백업 복구 시험 후 오픈 승인</td></tr><tr><th scope="row"><b>01-04</b></th><td>정식 오픈과 동시에 운영 소스·DB 구조서·관리자 및 NCP 매뉴얼 인계</td></tr><tr><th scope="row"><b>G4 · 01-07</b></th><td>오픈 후 수정 사항을 반영한 최종본 확인·최종 검수</td></tr></tbody></table></div><p class="memo"><b>인수 기준</b>은 화면 목록 누락 0건, 정원 1명인 시간대의 동시 요청 20건 중 1건만 접수, 타인 예약 조회·다른 지점 접근 차단, 접근성 자동 점검 오류 0건과 키보드 예약 완료, 운영 백업의 격리 복구·건수 및 주요 데이터 일치입니다. 개인정보가 포함된 복구 시험은 귀사 승인·접근 제한을 적용하고 시험 후 임시 복구본을 삭제합니다.</p><p class="memo">디자인 원본(Figma)·시험 결과·소스코드(귀사 저장소)·DB 구조·매뉴얼을 인계합니다. NCP 매뉴얼에는 <b>서버 접속·비상 재부팅·SSL 갱신·백업 확인·복구·배포 절차</b>를 담습니다. NCP 계정은 귀사 명의로 구성하고 오픈 후 당사 작업 권한을 회수하며, 외부 라이브러리·폰트의 라이선스 목록도 전달합니다. 오픈 전 기본 안내와 오픈~최종 검수 사이 화상 인계 교육 1회로 직접 운영하실 수 있도록 돕겠습니다.</p></div></div></details>
+      <details class="acc rv" id="dh6s"><summary><span class="kk">6</span><h2 id="h6s">고객 요청과 질문에 대한 답변</h2><span class="tog"><span class="t-open">펼쳐 보기</span><span class="t-close">접기</span><svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></span></summary><div class="acc-b"><div class="rv"><div class="tw"><table class="exp req"><thead><tr><th scope="col">공고 요청·질문</th><th scope="col">답변</th></tr></thead><tbody><tr><th scope="row"><b>필수 ① 상세 공수·단가</b></th><td><b>60 MD × 250,000원 = 15,000,000원</b>. 디자인 12·퍼블리싱 11·예약/게시판/관리자 15·NCP/이관/오픈 9·QA 7·착수/관리 6 MD로 배분했습니다. 11개 영역별 상세 금액과 인력 참여율은 <a class="ilink" href="제안서.md">제안서 상세본</a>에 있습니다</td></tr><tr><th scope="row"><b>필수 ② 구축 기간</b></th><td>착수일부터 <b>60일</b>로 제안하며, 위 일정에 따라 2027년 1월 오픈 목표를 맞추겠습니다. 실제 착수일과 자료·검수 일정을 계약 시 함께 확정합니다</td></tr><tr><th scope="row"><b>필수 ③ 무상 하자보수</b></th><td>최종 검수일부터 <b>3개월 무상</b>이며, 오픈~최종 검수 사이도 지원합니다. 관리자 설정 기능이 정상 작동하지 않는 결함도 포함하고, 신규 기능 추가와 구분합니다</td></tr><tr><th scope="row"><b>필수 ④ 월 NCP 실비</b></th><td><b>권장 구성(운영 웹·DB 분리) 약 277,000원 / 최소 구성(운영 웹·DB 통합) 약 183,000원</b>, 부가세 별도. 두 안 모두 Staging·Production은 분리합니다. 제안서의 2026년 10월 요금·용량·트래픽 가정에 따른 추정치이며, 백업 방식·보관 14일의 실제 용량과 자원별 요금을 G1에서 확정합니다. Staging 정지 시 컴퓨팅 비용을 줄일 수 있으나 디스크·IP·백업 비용은 남습니다</td></tr><tr><th scope="row"><b>필수 ⑤·사전 질문 ② NCP 직접 세팅·인계 경험</b></th><td><b>개인화 추천 플랫폼 고도화</b>에서 개발·테스트 환경 구축, 클라우드 이관, 운영 인계·문서화를 수행했습니다(2025.08~2026.07, 참여율 20%). <b>NCP 동일 구성의 직접 수행 실적은 현재 회사 제공 자료에서 확인되지 않습니다.</b> 이번에는 백엔드 수석이 직접 구성하고, Staging 구축 직후 접속 제한·시험 데이터 백업 복구·SSL 연동을 함께 확인하겠습니다. G3 전 Production 백업의 격리 복구와 환경 분리를 검증하고 오픈일에 관리 매뉴얼을 인계하겠습니다</td></tr><tr><th scope="row"><b>사전 질문 ① 가장 까다로운 부분과 해결 방안</b></th><td>지점·진료과의 같은 정보가 여러 화면에 흩어지면 안내와 예약이 달라지기 쉽습니다. <b>공통 데이터·템플릿으로 정보를 일치</b>시키고, 예약 정원은 서버·DB가 보장하며, 관리자 권한은 전체/지점으로 분리하겠습니다. 공고에서 질문 끝부분이 잘려 있어 이 취지로 이해하고 답변드립니다</td></tr><tr><th scope="row"><b>사전 질문 ③ 직접 수행 여부·투입 인원</b></th><td>커뮤니티 SaaS와 플랫폼 웹사이트는 당사가 <b>기획·디자인·개발을 직접 수행한 실적</b>입니다(참여율 100%). 이번에는 <b>8명</b>이 참여하며, PM 3·기획 9·디자인 6+6·프론트엔드 12+6·백엔드 9+9 MD로 총 60 MD입니다. 기획은 QA, 프론트엔드는 퍼블리싱, 백엔드 수석은 NCP·DB 관리를 겸임합니다</td></tr><tr><th scope="row"><b>건별·월 단위 유지보수 중 선택</b></th><td>본문의 건별 요청 방식을 기본으로 하고, 모집 요건의 월 단위 의뢰에도 대응하도록 두 안을 제시했습니다. 귀사 운영 계획에 맞춰 미팅에서 확정하시면 됩니다</td></tr></tbody></table></div></div></div></details>
+      <details class="acc rv" id="dh7s"><summary><span class="kk">7</span><h2 id="h7s">협업과 사전 준비</h2><span class="tog"><span class="t-open">펼쳐 보기</span><span class="t-close">접기</span><svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></span></summary><div class="acc-b"><div class="rv"><p class="memo first"><b>주 1회 온라인 화상 미팅과 Figma·Staging 시연</b>으로 결과를 함께 확인하겠습니다. 귀사 기획자와 당사 기획 책임이 일상 창구를 맡고 평일 업무시간 4시간 안에 1차 회신합니다. 결정 사항은 회의록으로 남기고, 착수 미팅은 원하시면 평택 귀사에 방문하겠습니다.</p><p class="memo">착수 전~1주차에 기획·원고·자산·예약 규칙·NCP 계정·본인인증 신청을, 2~4주차에 디자인 피드백·지점별 정보를, 5~6주차에 기존 게시물·도메인 정보·개인정보 처리방침을 함께 확인합니다. 자료 전달과 본인인증 심사 일정은 착수 때 정리하고, 심사 중에는 테스트 모드로 개발해 영향을 줄이겠습니다. 연말 QA는 <b>12-28까지 확인 의견, 12-30 오픈 승인</b>을 기준으로 준비하겠습니다.</p></div></div></details>
+      <details class="acc rv" id="dh8s"><summary><span class="kk">8</span><h2 id="h8s">정리</h2><span class="tog"><span class="t-open">펼쳐 보기</span><span class="t-close">접기</span><svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></span></summary><div class="acc-b"><div class="sumtw rv">
+        <table class="sumt">
+          <thead><tr><th scope="col">주요 제안 조건</th><th scope="col">요약</th></tr></thead>
+          <tbody>
+            <tr class="key"><th scope="row"><b>금액</b></th><td><b>15,000,000원</b> · 부가세 포함 <b>16,500,000원</b> · 합의한 산정 전제에 따른 필수 과업 전체</td></tr>
+            <tr class="key"><th scope="row"><b>기간</b></th><td><b>착수일부터 60일</b> · 정식 오픈 57일차 · 2026-11-09 착수 예시: <b>2027-01-04 오픈 · 01-07 최종 검수</b></td></tr>
+            <tr><th scope="row"><b>투입</b></th><td><b>60 MD · 2.00 MM · 참여 인원 8명</b> · 단계별 집중 투입 · 전원 보유 인력 · 재하도급 없음</td></tr>
+            <tr><th scope="row"><b>대금 지급</b></th><td>계약 시 <b>30%</b>(4,500,000원) · G2 디자인 확정 시 <b>30%</b>(4,500,000원) · G4 최종 검수 후 <b>40%</b>(6,000,000원), 부가세 별도</td></tr>
+            <tr><th scope="row"><b>월 NCP 실비</b></th><td>권장 구성 약 <b>277,000원</b> · 최소 구성 약 <b>183,000원</b>, 부가세 별도 추정 · 두 안 모두 Staging·Production 분리 · G1에서 구성·비용 확정</td></tr>
+            <tr><th scope="row"><b>무상 하자보수</b></th><td><b>최종 검수일부터 3개월</b> · 오픈일부터 최종 검수일까지의 결함도 개발비 내 수정</td></tr>
+            <tr><th scope="row"><b>유지보수</b></th><td>건별 <b>250,000원/MD</b>(0.5 MD 단위) · 월 단위 선택 시 <b>500,000원</b>(월 2 MD 이내 수정·지원 및 월 1회 서버·백업·인증서 점검), 부가세 별도</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="memo rv">실제 착수일과 자료 제공 일정을 확인해 계약 시 일정을 확정합니다. NCP·도메인·본인인증 등 외부 사용료는 별도 실비이며, 포함·제외 범위와 지원 기준은 <a class="xref" href="#h4s">4. 주요 제안 조건</a>에서 확인하실 수 있습니다.</p></div></details>
+    </div>
+  </section>
+
+  <section class="close">
+    <div class="wrap">
+      <p class="thanks rv">검토해 주셔서 감사합니다.</p><p class="thanks-sub rv">환자에게는 편리한 예약 경험을, 귀사에는 직접 운영하고 이어받을 수 있는 시스템을 제공해 오픈 이후의 안정적인 운영까지 함께하겠습니다.</p>
+      <a class="pbtn ghost rv" href="prototype/index.html">프로토타입 열기 <svg class="s" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot-in">
+    <span>의료 반응형 웹사이트 구축 (디자인/개발/NCP)</span>
+    <span>위시켓 159285 · 2026-10-27</span>
+  </div>
+</footer>
+
+<a class="float-cta" id="floatCta" href="prototype/index.html" aria-hidden="true" tabindex="-1">프로토타입 열기 <svg class="s" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+<script src="assets/main.js?v=20261027-accordion"></script>
+</body>
+</html>
